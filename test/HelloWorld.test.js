@@ -13,9 +13,10 @@ describe('my test', function() {
   });
 
   // simple 1 roll
-  it('should return the score', () => {
-    app.addNumber(1);
-    expect(app.score()).to.equal(1);
+  it('should should confirm if size is correct', () => {
+    const expectedSize = 250;
+    app.testSizes();
+    // expect(app.score()).to.equal(1);
   });
 
 
